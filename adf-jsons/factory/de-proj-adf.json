@@ -1,0 +1,9 @@
+{
+	"name": "de-proj-adf",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "15ccff66-330a-41ac-a6c9-0299f308d767",
+		"tenantId": "70de1992-07c6-480f-a318-a1afcba03983"
+	}
+}
