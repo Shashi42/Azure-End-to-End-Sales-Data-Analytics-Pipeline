@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "de-proj-adf"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"onpremsqlserver_connectionString": {
+			"value": "Integrated Security=False;Data Source=DESKTOP-D97R364;Initial Catalog=AdventureWorksLT2022;User ID=usr1"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://deprojdatalakegen2.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0120-235407-in9wrmd5"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://de-proj-kv.vault.azure.net/"
+		}
+	}
+}
